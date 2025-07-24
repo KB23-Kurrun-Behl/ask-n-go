@@ -1,0 +1,232 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #0E0A0A;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header & Navigation Section */
+
+.header-section {
+    align-items: center;
+    display: flex;
+    height: 11rem;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+
+.logo {
+    height: 4rem;
+}
+
+.navigation-section-list {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.link {
+    color: #FFF;
+    cursor: pointer;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    color: #F0C63C;
+}
+
+#search-box {
+    background-color: #352626;
+    border: none;
+    border-radius: 15px;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+}
+
+/* Hero Section */
+
+.primary-section {
+    padding: 6rem 2rem;
+}
+
+.primary {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 9rem;
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.primary-img {
+    width: 100%; 
+}
+
+.primary-heading {
+    color: #F0C63C;
+    font-size: 5.5rem;
+    font-weight: 800;
+    font-family: "Outfit", sans-serif;
+    line-height: 1;
+    letter-spacing: 2px;
+    margin-bottom: 3rem;
+}
+
+.primary-description {
+    color: #FFF;
+    font-size: 1.8rem;
+    font-weight: 200;
+    font-family: "Outfit", sans-serif;
+    line-height: 1;
+}
+
+/* Content Section */
+
+.secondary-section {
+    padding: 5rem 0;
+}
+
+.secondary-text-box {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.secondary-heading {
+    color: #F0C63C;
+    font-size: 4rem;
+    font-weight: 800;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 6rem;
+    text-align: center;
+}
+
+.content-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 9rem;
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+
+.content {
+    border-radius: 15px;
+    border: 3px solid #1F1717;
+    padding: 1rem 1rem;
+    transition: all ease 0.3s;
+}
+
+.content:hover {
+    box-shadow: 0 1rem 5rem #312525;
+}
+
+.content-text-box {
+    padding: 3rem;
+}
+
+.content-img {
+    width: 100%;
+}
+
+.content-title {
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.content-attributes {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+.content-attribute {
+    align-items: center;
+    background-color: #352626;
+    border-radius: 15px;
+    border: 3px solid #352626;
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    gap: 2rem;
+    padding: 1rem 1.3rem;
+}
+
+.content-attribute:hover {
+    background-color: #0E0A0A;
+    border: 3px solid #352626;
+    cursor: pointer;
+}
+
+.all-content {
+    max-width: 130rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.all-content-link {
+    color: #FFF;
+    display: inline-block;
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    padding: 4rem 0;
+    transition: all 0.3s ease;
+}
+
+.all-content-link:hover {
+    color: #F0C63C;
+}
+
+/* Footer Section */
+
+.footer {
+    background-color: #130D0D;
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.copyright {
+    color: #FFF;
+    font-family: "Outfit", sans-serif;
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+/* Rota HTML Webpage */
+
+.secondary-description {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 200;
+    font-family: "Outfit", sans-serif;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.date {
+    color: #F0C63C;
+    font-weight: 800;
+}
