@@ -1,0 +1,202 @@
+/* Below 1344px (Laptops) */
+
+@media (max-width: 84em) {
+
+    .header-section {
+        justify-content: center;
+        gap: 10rem;
+    }
+
+    .logo {
+        height: 3rem;
+    }
+
+    .link {
+        font-size: 1.8rem;
+    }
+
+    #search-box {
+        margin-top: 1rem;
+    }
+
+    .primary {
+        grid-template-columns: 1fr;
+    }
+
+    .primary-heading {
+        font-size: 8rem;
+    }
+
+    .primary-description {
+        font-size: 4rem;
+    }
+
+    .content-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content-title {
+        font-size: 3rem;
+    }
+
+    .content-attribute {
+        font-size: 2.5rem;
+        padding: 2rem 3rem;
+    }
+
+    .all-content-link {
+        font-size: 2.5rem;
+    }
+
+    .copyright {
+        font-size: 2rem;
+    }
+}
+
+/* Below 1200px (Landscape Tablets) */ 
+
+@media (max-width: 75em) {
+
+    .logo {
+        height: 3rem;
+    }
+
+    .primary-heading {
+        font-size: 7rem;
+    }
+
+    .primary-description {
+        font-size: 3.5rem;
+    }
+
+    .content-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .content-title {
+        font-size: 2.3rem;
+    }
+
+    .content-attribute {
+        font-size: 2rem;
+        padding: 1.5rem 2rem;
+    }
+
+    .all-content-link {
+        font-size: 2rem;
+    }
+
+    .copyright {
+        font-size: 1.5rem;
+    }
+}
+
+/* Below 1133px */
+
+@media (max-width: 71em) {
+
+    .logo {
+        height: 2.3rem;
+    }
+
+    .primary-heading {
+        font-size: 7rem;
+    }
+
+    .primary-description {
+        font-size: 3rem;
+    }
+
+    .content-title {
+        font-size: 2.3rem;
+    }
+}
+
+/* Below 1055px */
+
+@media (max-width: 66em) {
+
+    .header-section {
+        margin-top: 4rem;
+    }
+
+    .logo {
+        height: 3rem;
+    }
+
+    .navigation-section-list {
+        display: inline-block;
+    }
+
+    .primary-heading {
+        font-size: 6rem;
+    }
+
+    .primary-description {
+        font-size: 2.5rem;
+    }
+
+    .content-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .content-title {
+        font-size: 2.7rem;
+    }
+
+    .content-attribute {
+        font-size: 2rem;
+        padding: 1rem 1.3rem;
+    }
+
+    .all-content-link {
+        font-size: 2.5rem;
+    }
+
+    .copyright {
+        font-size: 1.8rem;
+    }
+}
+
+
+/* Below 944px (Tablets) */
+
+@media (max-width: 59em) {
+
+    .logo {
+        height: 3rem;
+    }
+
+    .link {
+        font-size: 1.5rem;
+    }
+
+    .primary-heading {
+        font-size: 5rem;
+    }
+
+    .primary-description {
+        font-size: 2.5rem;
+    }
+
+    .content-section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content-title {
+        font-size: 2.3rem;
+    }
+
+    .content-attribute {
+        font-size: 1.8rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .all-content-link {
+        font-size: 2rem;
+    }
+
+    .copyright {
+        font-size: 1.5rem;
+    }
+}
