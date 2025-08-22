@@ -5,20 +5,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const content = [
         {
             id: 1,
-            image: "imgs/comp-1.png",
-            title: "Translations Not Being Displayed On OBS",
-            link: "docs/sample-doc.docx"
+            image: "imgs/cam-1.png",
+            title: "How To Switch Camera On The Mixer",
+            link: "docs/doc-1.docx"
         },
         {
             id: 2,
             image: "imgs/sound-1.png",
-            title: "How To Adjust Sound Levels",
+            title: "BLANK",
             link: "docs/sample-doc.docx"
         },
         {
             id: 3,
-            image: "imgs/cam-1.png",
-            title: "Adjusting White Balance On The Cameras",
+            image: "imgs/comp-1.png",
+            title: "BLANK",
             link: "docs/sample-doc.docx"
         },
     ]
